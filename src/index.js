@@ -7,8 +7,12 @@ import {
   composeWithTracker as _composeWithTracker,
   composeWithPromise as _composeWithPromise,
   composeWithObservable as _composeWithObservable,
+  composeWithMobx as _composeWithMobx,
   composeAll as _composeAll,
   disable as _disable,
+  setDefaultErrorComponent as _setDefaultErrorComponent,
+  setDefaultLoadingComponent as _setDefaultLoadingComponent,
+  setStubbingMode as _setStubbingMode,
 } from 'react-komposer';
 
 import App from './app';
@@ -24,5 +28,9 @@ export const compose = _compose;
 export const composeWithTracker = _composeWithTracker;
 export const composeWithPromise = _composeWithPromise;
 export const composeWithObservable = _composeWithObservable;
+export const composeWithMobx = _composeWithMobx;
 export const composeAll = _composeAll;
 export const disable = _disable;
+export const setDefaultErrorComponent = _setDefaultErrorComponent;
+export const setDefaultLoadingComponent = _setDefaultLoadingComponent;
+export const setStubbingMode = _setStubbingMode;
